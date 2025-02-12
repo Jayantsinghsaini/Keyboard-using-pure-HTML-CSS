@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+    </style>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: "Poppins", serif;
+background-color: black;
+
+        }
+    </style>
+
+    <style>
+        section {
+            background-color: black;            
+            padding: 83px 0px 0px 124px;       
+         }
+
+        .container {
+            border: 1px solid;
+            height: 400px;
+            width: 1270px;
+            /* border-radius: 20px; */
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(2, 1, 1);
+            row-gap: 10px;
+            column-gap: 10px;
+            align-content: flex-start;
+        }
+
+        .keys {
+            border: 1px solid white;
+
+            border-radius: 10px;
+            color: aliceblue;
+            /* text-align: center;   */
+            transition: 0.2s;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            user-select: none;
+
+
+
+        }
+
+        .keys:hover {
+            box-shadow: 0px 0px 10px 4px white;
+
+        }
+
+        .keys:active {
+            box-shadow: 0px 0px 10px 4px white;
+            position: relative;
+            top: 2px;
+        }
+
+        .key-type1 {
+            height: 30px;
+            width: 50px;
+        }
+
+        .key-pwr {
+            height: 30px;
+            width: 55px;
+        }
+
+        .key-tilda {
+            height: 60px;
+            width: 40px;
+        }
+
+        .key-type2 {
+            height: 60px;
+            width: 60px;
+        }
+
+        .key-backspace {
+            height: 60px;
+            width: 129px;
+        }
+
+        .key-num {
+            height: 60px;
+            width: 50px;
+        }
+
+        .key-tab {
+            height: 60px;
+            width: 75px;
+        }
+
+        .key-backslash {
+            height: 60px;
+            width: 94px;
+        }
+
+        .key-capslock {
+            height: 60px;
+            width: 95px;
+        }
+
+        .key-enter {
+            height: 60px;
+            width: 146px;
+        }
+
+        .key-leftshift {
+            height: 60px;
+            width: 130px;
+        }
+
+        .key-rightshift {
+            height: 60px;
+            width: 182px;
+        }
+
+        .key-space {
+            height: 60px;
+            width: 345px;
+        }
+
+        .arrow {
+
+            height: 60px;
+            width: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .arrow>.arrows {
+            border: 1px solid white;
+            height: 26px;
+            width: 60px;
+            margin: 1px;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+
+        }
+
+        .arrow>.up {
+            border-radius: 7px 7px 0 0;
+        }
+
+        .arrow>.down {
+            border-radius: 0 0 7px 7px;
+        }
+
+        .arrow>.arrows:hover {
+            box-shadow: 0px 0px 20px 1px white;
+
+        }
+
+        .arrow>.arrows:active {
+            box-shadow: 0px 0px 20px 1px white;
+            position: relative;
+            top: 2px;
+        }
+
+        .key-rightalt {
+            height: 60px;
+            width: 80px;
+        }
+
+        .key-rightcontrol {
+            height: 60px;
+            width: 82px;
+        }
+
+        .w:hover,
+        .a:hover,
+        .s:hover,
+        .d:hover {
+            box-shadow: 0px 0px 10px 10px blue;
+
+        }
+
+        .key-space:hover {
+            box-shadow: 0px 0px 10px 5px rgb(3, 255, 3);
+
+        }
+
+        .key-enter:hover {
+            box-shadow: 0px 0px 10px 5px red;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="keys key-type1">esc</div>
+            <div class="keys key-type1">f1</div>
+            <div class="keys key-type1">f2</div>
+            <div class="keys key-type1">f3</div>
+            <div class="keys key-type1">f4</div>
+            <div class="keys key-type1">f5</div>
+            <div class="keys key-type1">f6</div>
+            <div class="keys key-type1">f7</div>
+            <div class="keys key-type1">f8</div>
+            <div class="keys key-type1">f9</div>
+            <div class="keys key-type1">f10</div>
+            <div class="keys key-type1">f11</div>
+            <div class="keys key-type1">f12</div>
+            <div class="keys key-type1">home</div>
+            <div class="keys key-type1">prt sc</div>
+            <div class="keys key-type1">insert</div>
+            <div class="keys key-type1">del</div>
+            <div class="keys key-type1">/</div>
+            <div class="keys key-type1">*</div>
+
+            <div class="keys key-pwr">
+                <span class="material-symbols-outlined">
+                    power_settings_new
+                </span>
+            </div>
+
+            <div class="keys key-tilda">~
+                <div>`</div>
+            </div>
+
+            <div class="keys key-type2">!
+                <div>1</div>
+            </div>
+            <div class="keys key-type2">@
+                <div>2</div>
+            </div>
+            <div class="keys key-type2">#
+                <div>3</div>
+            </div>
+            <div class="keys key-type2">$
+                <div>4</div>
+            </div>
+            <div class="keys key-type2">%
+                <div>5</div>
+            </div>
+            <div class="keys key-type2">^
+                <div>6</div>
+            </div>
+            <div class="keys key-type2">&
+                <div>7</div>
+            </div>
+            <div class="keys key-type2">*
+                <div>8</div>
+            </div>
+            <div class="keys key-type2">(
+                <div>9</div>
+            </div>
+            <div class="keys key-type2">)
+                <div>0</div>
+            </div>
+            <div class="keys key-type2">_
+                <div>-</div>
+            </div>
+            <div class="keys key-type2">+
+                <div>=</div>
+            </div>
+
+
+            <div class="keys key-backspace">backspace</div>
+
+            <div class="keys key-num">-</div>
+            <div class="keys key-num">+</div>
+            <div class="keys key-num">num</div>
+
+            <div class="keys key-tab">tab</div>
+
+            <div class="keys key-type2">Q</div>
+            <div class="keys key-type2 w">W</div>
+            <div class="keys key-type2">E</div>
+            <div class="keys key-type2">R</div>
+            <div class="keys key-type2">T</div>
+            <div class="keys key-type2">Y</div>
+            <div class="keys key-type2">U</div>
+            <div class="keys key-type2">I</div>
+            <div class="keys key-type2">O</div>
+            <div class="keys key-type2">P</div>
+            <div class="keys key-type2">{
+                <div>[</div>
+            </div>
+            <div class="keys key-type2">}
+                <div>]</div>
+            </div>
+
+            <div class="keys key-backslash">|
+                <div>\</div>
+            </div>
+
+            <div class="keys key-num">7</div>
+            <div class="keys key-num">8</div>
+            <div class="keys key-num">9</div>
+
+            <div class="keys key-capslock">caps lock</div>
+
+            <div class="keys key-type2 a">A</div>
+            <div class="keys key-type2 s">S</div>
+            <div class="keys key-type2 d">D</div>
+            <div class="keys key-type2">F</div>
+            <div class="keys key-type2">G</div>
+            <div class="keys key-type2">H</div>
+            <div class="keys key-type2">J</div>
+            <div class="keys key-type2">K</div>
+            <div class="keys key-type2">L</div>
+            <div class="keys key-type2">:
+                <div>;</div>
+            </div>
+            <div class="keys key-type2">"
+                <div>'</div>
+            </div>
+
+            <div class="keys key-enter">enter</div>
+
+            <div class="keys key-num">4</div>
+            <div class="keys key-num">5</div>
+            <div class="keys key-num">6</div>
+
+            <div class="keys key-leftshift">shift</div>
+
+            <div class="keys key-type2">Z</div>
+            <div class="keys key-type2">X</div>
+            <div class="keys key-type2">C</div>
+            <div class="keys key-type2">V</div>
+            <div class="keys key-type2">B</div>
+            <div class="keys key-type2">N</div>
+            <div class="keys key-type2">M</div>
+            <div class="keys key-type2">&lt;
+                <div>,</div>
+            </div>
+            <div class="keys key-type2">>
+                <div>.</div>
+            </div>
+            <div class="keys key-type2">?
+                <div>/</div>
+            </div>
+
+            <div class="keys key-rightshift">shift</div>
+
+            <div class="keys key-num">1</div>
+            <div class="keys key-num">2</div>
+            <div class="keys key-num">3</div>
+
+            <div class="keys key-type2">ctrl</div>
+            <div class="keys key-type2">fn</div>
+            <div class="keys key-type2 ">
+                <span class="material-symbols-outlined">
+                    window
+                </span>
+            </div>
+            <div class="keys key-type2">alt</div>
+
+            <div class="keys key-space"></div>
+
+            <div class="keys key-rightalt">alt gr</div>
+
+            <div class="keys key-rightcontrol">ctrl</div>
+
+            <div class="keys key-type2">
+                <span class="material-symbols-outlined">
+                    arrow_left
+                </span>
+            </div>
+
+            <div class="arrow">
+                <div class="arrows up">
+                    <span class="material-symbols-outlined">
+                        arrow_drop_up
+                    </span>
+                </div>
+                <div class="arrows down">
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </div>
+            </div>
+
+            <div class="keys key-type2">
+                <span class="material-symbols-outlined">
+                    arrow_right
+                </span>
+            </div>
+
+            <div class="keys key-num">0</div>
+            <div class="keys key-num">.</div>
+            <div class="keys key-num">enter</div>
+        </div>
+    </section>
+
+</body>
+
+</html>
